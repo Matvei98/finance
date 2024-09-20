@@ -1,0 +1,25 @@
+.autocomplete {
+	display: flex;	
+	position: absolute;
+	width: 350px;
+	flex-wrap:wrap;
+	border:1px solid grey;
+	border-radius: 10px;
+	background-color: azure;
+	padding: 10px;
+	gap: 6px;
+	top: 50px;
+}
+
+.item {
+	padding: 5px;
+	border:1px solid grey;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.item:hover {
+	cursor: pointer;
+	background-color: rgb(108, 173, 173);
+}
+

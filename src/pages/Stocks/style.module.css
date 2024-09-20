@@ -1,0 +1,7 @@
+.stocks {
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
